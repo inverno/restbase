@@ -8,13 +8,6 @@ node_js:
 
 jdk: oraclejdk8
 
-notifications:
-  irc:
-    channels:
-      - "irc.freenode.org#wikimedia-services"
-    on_success: change
-    on_failure: always
-
 before_install:
   - wget https://archive.apache.org/dist/cassandra/2.2.6/apache-cassandra-2.2.6-bin.tar.gz -P ../
   - tar -xzf ../apache-cassandra-2.2.6-bin.tar.gz -C ../
