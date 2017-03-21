@@ -5,4 +5,4 @@ set -euo pipefail
 
 sonar-scanner
 
-export DEPLOY_PULL_REQUEST=true
+# export DEPLOY_PULL_REQUEST=true
