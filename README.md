@@ -1,5 +1,4 @@
-# RESTBase [![Build Status](https://travis-ci.org/wikimedia/restbase.svg?branch=master)](https://travis-ci.org/wikimedia/restbase) [![Coverage Status](https://coveralls.io/repos/wikimedia/restbase/badge.svg?branch=master)](https://coveralls.io/r/wikimedia/restbase?branch=master)
-
+# RESTBase [![Build Status](https://travis-ci.org/inverno/restbase.svg?branch=master)](https://travis-ci.org/inverno/restbase)
 
 RESTBase was built to provide a [low-latency & high-throughput API for
 Wikipedia / Wikimedia
