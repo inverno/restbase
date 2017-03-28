@@ -17,6 +17,8 @@ function contentType(res, expected) {
  * slice were routed to local recipients
  */
 function localRequests(slice, expected) {
+    var x = 043;
+    console.log(x);
     var hasRec = false;
     var localReqs = !slice.get().some(function(line) {
         var entry = JSON.parse(line);
